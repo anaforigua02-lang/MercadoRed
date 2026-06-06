@@ -18,4 +18,4 @@ El proyecto implementa conexión con base de datos MySQL y utiliza tecnologías 
   MySQL Apache Tomcat 
 
   
-  🎯 Objetivo del proyecto  Este proyecto fue desarrollado con fines académicos para fortalecer habilidades en desarrollo backend con Java, manejo de bases de datos relacionales y construcción de aplicaciones web dinámicas.
+  Objetivo del proyecto  Este proyecto fue desarrollado con fines académicos para fortalecer habilidades en desarrollo backend con Java, manejo de bases de datos relacionales y construcción de aplicaciones web dinámicas.
