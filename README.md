@@ -4,18 +4,20 @@ MercadoRed is a Java-based sales and inventory management system that simulates 
 The project was developed as an academic software engineering exercise focused on backend logic, system design, and structured programming.
 
 Key Features
-Product management (create, update, delete, and list products)
-Customer management module
-Sales transaction processing
-Inventory control with automatic stock updates
-Console-based user interface (or GUI if applicable)
-Database integration using MySQL and JDBC (if applicable)
-Technologies Used
-Java
-MySQL
-JDBC
-NetBeans / IntelliJ IDEA
-Git & GitHub
+
+
+Product management (create, update, delete, and list products),
+Customer management module,
+Sales transaction processing,
+Inventory control with automatic stock updates,
+Console-based user interface,
+Database integration using MySQL and JDBC,
+Technologies Used,
+Java,
+MySQL,
+JDBC,
+NetBeans / IntelliJ IDEA,
+Git & GitHub.
 
 
 
@@ -34,6 +36,8 @@ README.md
 
 
 Installation and Execution
+
+
 1. Clone repository
 git clone https://github.com/anaforigua02-lang/MercadoRed.git
 2. Open project
@@ -42,22 +46,24 @@ Open the project using NetBeans or IntelliJ IDEA.
 Import the file database/mercadored.sql into MySQL and update the credentials in DBConexion.java.
 4. Run application
 Execute the main class:
-Main.java
+Main.java.
 
 
 
 What was learned
-Object-oriented programming in Java
-Layered software architecture
-Database integration using JDBC
-Business logic implementation
-Project structuring for scalable applications
-Future improvements
-Graphical user interface using JavaFX or Swing
-User authentication system
-Sales reporting and analytics dashboard
-Improved validation and error handling
-Role-based access control
+
+
+Object-oriented programming in Java,
+Layered software architecture,
+Database integration using JDBC,
+Business logic implementation,
+Project structuring for scalable applications,
+Future improvements,
+Graphical user interface using JavaFX or Swing,
+User authentication system,
+Sales reporting and analytics dashboard,
+Improved validation and error handling,
+Role-based access control.
 
 
 Author
