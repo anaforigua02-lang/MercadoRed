@@ -25,23 +25,6 @@ MySQL
 JDBC 
 
 
-MercadoRed/
-|
-|-- src/
-|   |-- model/
-|   |-- controller/
-|   |-- view/
-|   |-- util/
-|
-|-- database/
-|
-|-- assets/
-|   |-- images/
-|
-|-- README.md
-
-
-
 Instalación y ejecución
 1. Clonar el repositorio
 git clone https://github.com/tuusuario/MercadoRed.git
@@ -57,7 +40,6 @@ Ejecutar la clase principal Main.java.
 Aprendizajes
 
 Este proyecto permitió desarrollar y reforzar:
-
 Diseño de sistemas en Java
 Aplicación de POO en proyectos reales
 Organización modular del código
