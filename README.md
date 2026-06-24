@@ -25,18 +25,20 @@ MySQL
 JDBC 
 
 
-Estructura del proyecto
 MercadoRed/
-│
-├── src/
-│   ├── model/
-│   ├── controller/
-│   ├── view/
-│   ├── util/
-│
-├── database/
-├── assets/
-└── README.md
+|
+|-- src/
+|   |-- model/
+|   |-- controller/
+|   |-- view/
+|   |-- util/
+|
+|-- database/
+|
+|-- assets/
+|   |-- images/
+|
+|-- README.md
 
 
 
