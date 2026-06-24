@@ -1,61 +1,73 @@
-MercadoRed
+Overview
 
-MercadoRed es un sistema de gestión de ventas y productos desarrollado en Java, orientado a simular el funcionamiento básico de un sistema de inventario y procesos de compra-venta. El proyecto aplica principios de programación orientada a objetos y organización por capas.
+MercadoRed is a Java-based sales and inventory management system that simulates the core operations of a retail environment. It allows the management of products, customers, and sales transactions, applying object-oriented programming principles and a modular architecture.
+The project was developed as an academic software engineering exercise focused on backend logic, system design, and structured programming.
 
-Objetivo
-
-El objetivo del proyecto es fortalecer habilidades en:
-
-Programación Orientada a Objetos (POO)
-Manejo de estructuras de datos
-Diseño de arquitectura básica de software en Java
-Lógica de negocio aplicada a sistemas de ventas
-Integración con base de datos
-Funcionalidades principales
-Registro de productos (nombre, precio, stock)
-Gestión de clientes
-Registro de ventas o compras
-Actualización automática de inventario
-Consulta de productos disponibles
-Sistema de menú interactivo (consola o interfaz gráfica)
-Tecnologías utilizadas
+Key Features
+Product management (create, update, delete, and list products)
+Customer management module
+Sales transaction processing
+Inventory control with automatic stock updates
+Console-based user interface (or GUI if applicable)
+Database integration using MySQL and JDBC (if applicable)
+Technologies Used
 Java
+MySQL
+JDBC
 NetBeans / IntelliJ IDEA
-MySQL 
-JDBC 
-
-
-Instalación y ejecución
-1. Clonar el repositorio
-git clone https://github.com/tuusuario/MercadoRed.git
-2. Abrir el proyecto
-Abrir el proyecto en NetBeans o IntelliJ IDEA.
-3. Configuración de base de datos (si aplica)
-Importar el script SQL en MySQL
-Configurar credenciales en DBConexion.java
-4. Ejecutar el proyecto
-Ejecutar la clase principal Main.java.
-
-
-Aprendizajes
-
-Este proyecto permitió desarrollar y reforzar:
-Diseño de sistemas en Java
-Aplicación de POO en proyectos reales
-Organización modular del código
-Lógica de negocio en sistemas de ventas
-Manejo de bases de datos relacionales (si aplica)
-Capturas del sistema
+Git & GitHub
 
 
 
-Ejemplo de organización:
+Project Structure
+MercadoRed
+src
+  model
+  controller
+  view
+  util
+database
+  mercadored.sql
+assets
+  images
+README.md
 
-Pantalla principal
-Menú de productos
-Registro de ventas
-Gestión de clientes
-Autor
 
+Installation and Execution
+1. Clone repository
+git clone https://github.com/anaforigua02-lang/MercadoRed.git
+2. Open project
+Open the project using NetBeans or IntelliJ IDEA.
+3. Database setup
+Import the file database/mercadored.sql into MySQL and update the credentials in DBConexion.java.
+4. Run application
+Execute the main class:
+Main.java
+
+
+
+What was learned
+Object-oriented programming in Java
+Layered software architecture
+Database integration using JDBC
+Business logic implementation
+Project structuring for scalable applications
+Future improvements
+Graphical user interface using JavaFX or Swing
+User authentication system
+Sales reporting and analytics dashboard
+Improved validation and error handling
+Role-based access control
+
+
+Author
 Ana Forigua
-Estudiante de Ingeniería de Sistemas
+Systems Engineering student
+
+
+
+Project summary
+MercadoRed es un sistema desarrollado en Java que simula un entorno de ventas e inventario. Permite la gestión de productos, clientes y ventas mediante la aplicación de programación orientada a objetos y una arquitectura modular.
+El proyecto tiene un enfoque académico y busca fortalecer habilidades en desarrollo de software, diseño de sistemas y bases de datos.
+
+
